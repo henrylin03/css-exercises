@@ -34,13 +34,15 @@ body {
 }
 
 .button-container {
-  width: 100%;
-  margin: 0 auto;
   padding: 8px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
   padding: 8px 24px;
+  margin: inherit;
 }
